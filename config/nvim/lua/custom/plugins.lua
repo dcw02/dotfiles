@@ -1,5 +1,8 @@
 local plugins = {
   {
+    "Civitasv/cmake-tools.nvim",
+  },
+  {
     "rcarriga/nvim-dap-ui",
     event = "VeryLazy",
     dependencies = "mfussenegger/nvim-dap",
