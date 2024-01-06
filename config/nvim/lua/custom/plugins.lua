@@ -1,6 +1,10 @@
 local plugins = {
   {
     "Civitasv/cmake-tools.nvim",
+    event = "VeryLazy",
+    opts = function()
+      return require "custom.configs.cmake-tools"
+    end,
   },
   {
     "rcarriga/nvim-dap-ui",
